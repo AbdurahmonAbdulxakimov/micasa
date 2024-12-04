@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/icons/Favicon.svg" type="image/x-icon">
+        
+    <!-- Project Details -->
+    <meta name="author" content="WIUT Student 00017394">
+    <meta name="description" content="This website was created to fulfill Web Technology
+    module’s requirements and does not represent an actual company or service">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Course Work, CW, Web Technology, WT">
+
+    <title>Micasa</title>
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+    <div id="root">
+        <p id="warrning">This website was created to fulfill Web Technology module’s requirements and does not represent an actual company or service!</p>
+
+        <!-- Header | Navigation Bar -->
+        <header id="header">
+            <nav class="navbar">
+                <!-- Header Logo -->
+                <div class="logo-wrapper">
+                    <img src="../assets/Logo.png" alt="logo">
+                </div>
+
+                <!-- Navigation Bar Toggle Button -->
+                <button class="navbar__menu" onclick="toggleManuIcon()">
+                    <img src="../assets/icons/menu.png" alt="manu">
+                </button>
+                
+                <!-- Navigation Links -->
+                <ul class="navbar__links">
+                    <li><a href="/home.html">home</a></li>
+                    <li><a href="/about.html">about</a></li>
+                    <li><a href="/services.html">services</a></li>
+                    <li><a href="/projects.html">projects</a></li>
+                    <li><a href="/blogs.html">blogs</a></li>
+                    <li><a href="/contact.html">contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="container">
+                    <div class="intro">
+                        <h1>Let Your Home Be Unique</h1>
+                        <p>There are many variations of the passages of lorem Ipsum fromavailable,variations of the passages.</p>
+                        <a href="/contact" class="btn">
+                            Get Started
+                            <svg width="29" height="30" viewBox="0 0 29 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.58984 14.9353L20.313 14.7984M15.208 8.41125L21.731 14.9342L15.0766 21.5886" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Services Section -->
+            <section class="services">
+                <div class="container">
+                    <div class="service-card">
+                        <h3>Project Plan</h3>
+                        <p>There are many variations of the passages of lorem Ipsum from available, majority.</p>
+                        <a href="/services" class="link">
+                            Read More
+                            <svg width="29" height="30" viewBox="0 0 29 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.58984 14.9353L20.313 14.7984M15.208 8.41125L21.731 14.9342L15.0766 21.5886" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="service-card">
+                        <h3>Interior Work</h3>
+                        <p>There are many variations of the passages of lorem Ipsum from available, majority.</p>
+                        <a href="/services" class="link">
+                            Read More
+                            <svg width="29" height="30" viewBox="0 0 29 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.58984 14.9353L20.313 14.7984M15.208 8.41125L21.731 14.9342L15.0766 21.5886" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="service-card">
+                        <h3>Realization</h3>
+                        <p>There are many variations of the passages of lorem Ipsum from available, majority.</p>
+                        <a href="/services" class="link">
+                            Read More
+                            <svg width="29" height="30" viewBox="0 0 29 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.58984 14.9353L20.313 14.7984M15.208 8.41125L21.731 14.9342L15.0766 21.5886" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Us Section -->
+            <section class="about">
+                <div class="container">
+                    <div class="about__content">
+                        <h1>We Create The Art Of Stylish Living Stylishly</h1>
+
+                        <p>It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal.</p>
+
+                        <div class="flex items-center gap-15">
+                            <div class="icon-wrapper">
+                                <img src="assets/icons/Call.svg" alt="call">
+                            </div>
+                            <p><span>012345678</span><br>Call Us Any</p>
+                        </div>
+
+                        <a href="/contact" class="btn">
+                            Get Started
+                            <svg width="29" height="30" viewBox="0 0 29 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.58984 14.9353L20.313 14.7984M15.208 8.41125L21.731 14.9342L15.0766 21.5886" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <img src="./assets/images/home/about.png" alt="About">
+                </div>
+            </section>
+
+            <!-- Testimonials Section -->
+            <section class="testimonials">
+                <div class="container">
+                    <div class="testimonials__feedbacks">
+                        <h2>what people think about us</h2>
+                        <ul>
+                            <li class="feedback">
+                                <div class="feedback__header">
+                                    <img src="assets/images/home/clients/01.png" alt="client 1">
+                                    <div>
+                                        <h3>Natasha Mith</h3>
+                                        <p>Sydney, USA</p>
+                                    </div>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor labore mollitia nemo id exercitationem hic fugiat quod, enim ducimus delectus voluptas eligendi expedita nulla facere animi eveniet.</p>
+                            </li>
+                            <li class="feedback">
+                                <div class="feedback__header">
+                                    <img src="assets/images/home/clients/02.png" alt="client 2">
+                                    <div>
+                                        <h3>Raymond Galario</h3>
+                                        <p>Sydney, Australia</p>
+                                    </div>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor labore mollitia nemo id exercitationem hic fugiat quod, enim ducimus delectus voluptas eligendi expedita nulla facere animi eveniet.</p>
+                            </li>
+                            <li class="feedback">
+                                <div class="feedback__header">
+                                    <img src="assets/images/home/clients/03.png" alt="client 3">
+                                    <div>
+                                        <h3>Benny Roll</h3>
+                                        <p>Sydney, New York</p>
+                                    </div>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor labore mollitia nemo id exercitationem hic fugiat quod, enim ducimus delectus voluptas eligendi expedita nulla facere animi eveniet.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="testimonials__brands">
+                        <img src="assets/images/home/brands/01.png" alt="brand 1">
+                        <img src="assets/images/home/brands/02.png" alt="brand 2">
+                        <img src="assets/images/home/brands/03.png" alt="brand 3">
+                        <img src="assets/images/home/brands/04.png" alt="brand 4">
+                        <img src="assets/images/home/brands/05.png" alt="brand 5">
+                    </div>
+                </div>
+            </section>
+             
+            <!-- Projects Section -->
+            <section class="projects">
+                <div class="container">
+                    <div class="projects__header">
+                        <h2>Follow Our Projects</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo vel, totam aut sint et animi omnis maiores.</p>
+                    </div>
+                    <div class="projects__gallery">
+                        <a href="/projects" class="project-card">
+                            <div class="img-wrapper">
+                                <img src="assets/images/home/projects/01.png" alt="01">
+                            </div>
+                            <div class="project-card__content">
+                                <div>
+                                    <h3>Modern Kitchen</h3>
+                                    <p>Decor / Architecture</p>
+                                </div>
+                                <div class="icon-wrapper">
+                                    <img src="assets/icons/More.svg" alt="icon">
+                                </div>
+                            </div>
+                        </a>
+                        <a href="/projects" class="project-card">
+                            <div class="img-wrapper">
+                                <img src="assets/images/home/projects/02.png" alt="02">
+                            </div>
+                            <div class="project-card__content">
+                                <div>
+                                    <h3>Modern Kitchen</h3>
+                                    <p>Decor / Architecture</p>
+                                </div>
+                                <div class="icon-wrapper">
+                                    <img src="assets/icons/More.svg" alt="icon">
+                                </div>
+                            </div>
+                        </a>
+                        <a href="/projects" class="project-card">
+                            <div class="img-wrapper">
+                                <img src="assets/images/home/projects/03.png" alt="03">
+                            </div>
+                            <div class="project-card__content">
+                                <div>
+                                    <h3>Modern Kitchen</h3>
+                                    <p>Decor / Architecture</p>
+                                </div>
+                                <div class="icon-wrapper">
+                                    <img src="assets/icons/More.svg" alt="icon">
+                                </div>
+                            </div>
+                        </a>
+                        <a href="/projects" class="project-card">
+                            <div class="img-wrapper">
+                                <img src="assets/images/home/projects/04.png" alt="04">
+                            </div>
+                            <div class="project-card__content">
+                                <div>
+                                    <h3>Modern Kitchen</h3>
+                                    <p>Decor / Architecture</p>
+                                </div>
+                                <div class="icon-wrapper">
+                                    <img src="assets/icons/More.svg" alt="icon">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Numbers Section -->
+             <section class="numbers">
+                <div class="container">
+                    <div>
+                        <h3>12</h3>
+                        <p>years of experience</p>
+                    </div>
+                    <div>
+                        <h3>85</h3>
+                        <p>success projects</p>
+                    </div>
+                    <div>
+                        <h3>15</h3>
+                        <p>active projects</p>
+                    </div>
+                    <div>
+                        <h3>95</h3>
+                        <p>happy customers</p>
+                    </div>
+                </div>
+             </section>
+            
+            <!-- Blogs Section -->
+            <section class="blogs">
+                <div class="container">
+                    <div class="blogs__header">
+                        <h2>Articles & News</h2>
+                        <p>It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using.</p>
+                    </div>
+                    <ul class="blogs__gallery">
+                        <li class="blog">
+                            <a href="/blogs">
+                                <div class="img-wrapper">
+                                    <img src="assets/images/home/blogs/01.png" alt="01">
+                                    <span>Kitchen Design</span>
+                                </div>
+                                <div class="blog__content">
+                                    <h3>Let’s Get Solution For Building Construction Work</h3>
+                                    <div class="blog__detail">
+                                        <p>26, December 2024</p>
+                                        <div class="icon-wrapper">
+                                            <img src="assets/icons/More.svg" alt="icon">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="blog">
+                            <a href="/blogs">
+                                <div class="img-wrapper">
+                                    <img src="assets/images/home/blogs/02.png" alt="02">
+                                    <span>Livingroom Design</span>
+                                </div>
+                                <div class="blog__content">
+                                    <h3>Low Cost Latest Invented Interior Designing Ideas.</h3>
+                                    <div class="blog__detail">
+                                        <p>22, December 2024</p>
+                                        <div class="icon-wrapper">
+                                            <img src="assets/icons/More.svg" alt="icon">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="blog">
+                            <a href="/blogs">
+                                <div class="img-wrapper">
+                                    <img src="assets/images/home/blogs/03.png" alt="03">
+                                    <span>Interior Design</span>
+                                </div>
+                                <div class="blog__content">
+                                    <h3>Best For Any Office & Business Interior Solution</h3>
+                                    <div class="blog__detail">
+                                        <p>25, December 2024</p>
+                                        <div class="icon-wrapper">
+                                            <img src="assets/icons/More.svg" alt="icon">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            
+            <!-- CTA Section -->
+            <section class="cta">
+                <div class="container">
+                    <h2>Wanna join the micasa?</h2>
+                    <p>It is a long established fact  will be distracted.</p>
+                    <a href="/contact" class="btn btn-primary">
+                        Contact With Us
+                        <svg width="29" height="30" viewBox="0 0 29 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.58984 14.9353L20.313 14.7984M15.208 8.41125L21.731 14.9342L15.0766 21.5886" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="footer__content">
+                <div class="footer__socials">
+                    <!-- Footer Logo -->
+                    <div class="logo-wrapper">
+                        <img src="../assets/Logo.png" alt="logo">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, laudantium! Ea animi porro, quibusdam nobis labore tenetur.</p>
+                    <ul>
+                        <li>
+                            <a target="_blank" href="https://twitter.com">
+                                <img src="../assets/icons/Twitter.svg" alt="Twitter">
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://facebook.com">
+                                <img src="../assets/icons/Facebook.svg" alt="Facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://linkedin.com">
+                                <img src="../assets/icons/LinkedIn.svg" alt="LinkedIn">
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://instagram.com">
+                                <img src="../assets/icons/Instagram.svg" alt="Instagram">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__pages">
+                    <h3>Pages</h3>
+                    <ul>
+                        <li><a href="/about.html">about us</a></li>
+                        <li><a href="/services.html">our services</a></li>
+                        <li><a href="/projects.html">our projects</a></li>
+                        <li><a href="/team.html">our team</a></li>
+                        <li><a href="/contact.html">contact us</a></li>
+                    </ul>
+                </div>
+                <div class="footer__contact">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li>
+                            <a target="_blank" href="https://maps.app.goo.gl/UCdqhYAFz1DDrtbD6">55 East Birchwood Ave. Brooklyn, New York 11201</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="mailto:contact@micasa.com">contact@micasa.com</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="tel:+1234567890">(123) 456-7890</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <p>Copyright © Micasa | Designed by Victorflow Templates - Build by WIUT Student 00017394</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- JavaScript Sources -->
+    <script src="js/app.js" defer></script>
+</body>
+</html>

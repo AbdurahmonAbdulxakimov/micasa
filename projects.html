@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/icons/Favicon.svg" type="image/x-icon">
+        
+    <!-- Project Details -->
+    <meta name="author" content="WIUT Student 00017394">
+    <meta name="description" content="This website was created to fulfill Web Technology
+    module’s requirements and does not represent an actual company or service">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Course Work, CW, Web Technology, WT">
+
+    <title>Projects - Micasa</title>
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/projects.css">
+</head>
+<body>
+    <div id="root">
+        <p id="warrning">This website was created to fulfill Web Technology module’s requirements and does not represent an actual company or service!</p>
+        <!-- Header | Navigation Bar -->
+        <header id="header">
+            <nav class="navbar">
+                <!-- Header Logo -->
+                <div class="logo-wrapper">
+                    <img src="../assets/Logo.png" alt="logo">
+                </div>
+
+                <!-- Navigation Bar Toggle Button -->
+                <button class="navbar__menu" onclick="toggleManuIcon()">
+                    <img src="../assets/icons/menu.png" alt="manu">
+                </button>
+                
+                <!-- Navigation Links -->
+                <ul class="navbar__links">
+                    <li><a href="/home.html">home</a></li>
+                    <li><a href="/about.html">about</a></li>
+                    <li><a href="/services.html">services</a></li>
+                    <li><a href="/projects.html">projects</a></li>
+                    <li><a href="/blogs.html">blogs</a></li>
+                    <li><a href="/contact.html">contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Main Content -->
+        <main>
+            <!-- Intro Section -->
+            <section class="intro">
+                <div class="intro__content">
+                    <h1>Our Projects</h1>
+                    <p>Home / Projects</p>
+                </div>
+            </section>
+            
+            <section class="projects">
+                <div class="container">
+                    <ul class="projects__filter">
+                        <li><a href="?q=bathroom" class="active-filter">bathroom</a></li>
+                        <li><a href="?q=bed_room">bed room</a></li>
+                        <li><a href="?q=kitchen">kitchen</a></li>
+                        <li><a href="?q=living_area">living area</a></li>
+                    </ul>
+
+                    
+                    <!-- Dynamically rendered through /js/projects.js -->
+                    <div class="projects__wrapper">
+                        <div class="left">
+                        <div class="project-card">
+                            <a href="">
+                                <img src="../assets/images/projects/Light Minimal.png" alt="">
+                                <div class="projects-card__footer">
+                                    <div>
+                                        <h4>Light Bedroom</h4>
+                                        <p>Decor / Architecture</p>
+                                    </div>
+                                    <div class="icon-wrapper">
+                                        <img src="assets/icons/More.svg" alt="icon">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="project-card">
+                            <a href="">
+                                <img src="../assets/images/projects/Modern Bedroom.png" alt="">
+                                <div class="projects-card__footer">
+                                    <div>
+                                        <h4>Modern Minimal</h4>
+                                        <p>Decor / Architecture</p>
+                                    </div>
+                                    <div class="icon-wrapper">
+                                        <img src="assets/icons/More.svg" alt="icon">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="project-card">
+                            <a href="">
+                                <img src="../assets/images/projects/System Table.png" alt="">
+                                <div class="projects-card__footer">
+                                    <div>
+                                        <h4>System Table</h4>
+                                        <p>Decor / Architecture</p>
+                                    </div>
+                                    <div class="icon-wrapper">
+                                        <img src="assets/icons/More.svg" alt="icon">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        </div>
+                        <div class="right">
+                        <div class="project-card">
+                            <a href="">
+                                <img src="../assets/images/projects/Minimal Bedroom.png" alt="">
+                                <div class="projects-card__footer">
+                                    <div>
+                                        <h4>Minimal Bedroom</h4>
+                                        <p>Decor / Architecture</p>
+                                    </div>
+                                    <div class="icon-wrapper">
+                                        <img src="assets/icons/More.svg" alt="icon">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="project-card">
+                            <a href="">
+                                <img src="../assets/images/projects/Classic Minimal.png" alt="">
+                                <div class="projects-card__footer">
+                                    <div>
+                                        <h4>Classic Minimal Bedroom</h4>
+                                        <p>Decor / Architecture</p>
+                                    </div>
+                                    <div class="icon-wrapper">
+                                        <img src="assets/icons/More.svg" alt="icon">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="project-card">
+                            <a href="">
+                                <img src="../assets/images/projects/Minimal Table.png" alt="">
+                                <div class="projects-card__footer">
+                                    <div>
+                                        <h4>Minimal Table</h4>
+                                        <p>Decor / Architecture</p>
+                                    </div>
+                                    <div class="icon-wrapper">
+                                        <img src="assets/icons/More.svg" alt="icon">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        </div>
+                        </div>
+                </div>
+            </section>
+            
+        </main>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="footer__content">
+                <div class="footer__socials">
+                    <!-- Footer Logo -->
+                    <div class="logo-wrapper">
+                        <img src="../assets/Logo.png" alt="logo">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, laudantium! Ea animi porro, quibusdam nobis labore tenetur.</p>
+                    <ul>
+                        <li>
+                            <a target="_blank" href="https://twitter.com">
+                                <img src="../assets/icons/Twitter.svg" alt="Twitter">
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://facebook.com">
+                                <img src="../assets/icons/Facebook.svg" alt="Facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://linkedin.com">
+                                <img src="../assets/icons/LinkedIn.svg" alt="LinkedIn">
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://instagram.com">
+                                <img src="../assets/icons/Instagram.svg" alt="Instagram">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__pages">
+                    <h3>Pages</h3>
+                    <ul>
+                        <li><a href="/about.html">about us</a></li>
+                        <li><a href="/services.html">our services</a></li>
+                        <li><a href="/projects.html">our projects</a></li>
+                        <li><a href="/team.html">our team</a></li>
+                        <li><a href="/contact.html">contact us</a></li>
+                    </ul>
+                </div>
+                <div class="footer__contact">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li>
+                            <a target="_blank" href="https://maps.app.goo.gl/UCdqhYAFz1DDrtbD6">55 East Birchwood Ave. Brooklyn, New York 11201</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="mailto:contact@micasa.com">contact@micasa.com</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="tel:+1234567890">(123) 456-7890</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <p>Copyright © Micasa | Designed by Victorflow Templates - Powered by Webflow</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- JavaScript Sources -->
+    <script src="js/app.js" defer></script>
+    <script src="js/projects.js" defer></script>
+</body>
+</html>

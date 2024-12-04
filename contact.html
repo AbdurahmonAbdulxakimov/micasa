@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/icons/Favicon.svg" type="image/x-icon">
+        
+    <!-- Project Details -->
+    <meta name="author" content="WIUT Student 00017394">
+    <meta name="description" content="This website was created to fulfill Web Technology
+    module’s requirements and does not represent an actual company or service">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Course Work, CW, Web Technology, WT">
+
+    <title>Contact - Micasa</title>
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    <div id="root">
+        <p id="warrning">This website was created to fulfill Web Technology module’s requirements and does not represent an actual company or service!</p>
+        <!-- Header | Navigation Bar -->
+        <header id="header">
+            <nav class="navbar">
+                <!-- Header Logo -->
+                <div class="logo-wrapper">
+                    <img src="../assets/Logo.png" alt="logo">
+                </div>
+
+                <!-- Navigation Bar Toggle Button -->
+                <button class="navbar__menu" onclick="toggleManuIcon()">
+                    <img src="../assets/icons/menu.png" alt="manu">
+                </button>
+                
+                <!-- Navigation Links -->
+                <ul class="navbar__links">
+                    <li><a href="/home.html">home</a></li>
+                    <li><a href="/about.html">about</a></li>
+                    <li><a href="/services.html">services</a></li>
+                    <li><a href="/projects.html">projects</a></li>
+                    <li><a href="/blogs.html">blogs</a></li>
+                    <li><a href="/contact.html">contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Main Content -->
+        <main>
+            <!-- Intro Section -->
+            <section class="intro">
+                <div class="intro__content">
+                    <h1>Contact Us</h1>
+                    <p>Home / Contact</p>
+                </div>
+            </section>
+            
+            <!-- Contact Form Section -->
+            <section class="contact">
+                <div class="container">
+                    <h2>We love meeting new people and helping them.</h2>
+                    <div class="contact__wrapper">
+                        <div class="contact__details">
+                            <a href="">
+                                <span><img src="assets/icons/Mail.svg" alt="mail"></span>
+                                info@domain.com
+                            </a>
+                            <a href="">
+                                <span><img src="assets/icons/Call.svg" alt="call"></span>
+                                +998 (77) 777-77-77
+                            </a>
+                            <div class="socials">
+                                <a href="">
+                                    <img src="assets/icons/Facebook.svg" alt="facebook">
+                                </a>
+                                <a href="">
+                                    <img src="assets/icons/LinkedIn.svg" alt="linkedin">
+                                </a>
+                                <a href="">
+                                    <img src="assets/icons/Instagram.svg" alt="instagram">
+                                </a>
+                                <a href="">
+                                    <img src="assets/icons/Twitter.svg" alt="twitter">
+                                </a>
+                            </div>
+                        </div>
+                        <form action="" class="form">
+                            <div>
+                                <input class="form-control" type="text" name="name" placeholder="Name" required>
+                                <input class="form-control" type="text" name="email" placeholder="Email" required>
+                            </div>
+                            <div>
+                                <input class="form-control" type="text" name="subject" placeholder="Subject">
+                                <input class="form-control" type="text" name="phone" placeholder="Phone" required>
+                            </div>
+                            <textarea name="msg" class="form-control" cols="30" rows="5" placeholder="Hello I am interested in..." required></textarea>
+                            <button type="submit" class="btn">
+                                Send
+                                <svg width="29" height="30" viewBox="0 0 29 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.58984 14.9353L20.313 14.7984M15.208 8.41125L21.731 14.9342L15.0766 21.5886" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <!-- FAQ Section -->
+            <section class="faq">
+                <div class="container">
+                    <h2>Every Question Answered</h2>
+                    <div class="faq__wrapper">
+                        <details name="faq">
+                            <summary>
+                                <h3>What is the Hipcouch Interior Design Service?</h3> 
+                                <span><img src="assets/icons/More.svg" alt=""></span>
+                            </summary>
+                            <p>Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem
+                                vitae turpmaximus.posuere in.Contrary popular belief.
+                                There are many variations of passages of Lorem Ipsum available, but the majority randomised.</p>
+                        </details>
+                        <details name="faq">
+                            <summary>
+                                <h3>So, how exactly does this work?</h3> 
+                                <span><img src="assets/icons/More.svg" alt=""></span>
+                            </summary>
+                            <p>Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem
+                                vitae turpmaximus.posuere in.Contrary popular belief.
+                                There are many variations of passages of Lorem Ipsum available, but the majority randomised.</p>
+                        </details>
+                        <details name="faq">
+                            <summary>
+                                <h3>What cities do you currently operate in?</h3> 
+                                <span><img src="assets/icons/More.svg" alt=""></span>
+                            </summary>
+                            <p>Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem
+                                vitae turpmaximus.posuere in.Contrary popular belief.
+                                There are many variations of passages of Lorem Ipsum available, but the majority randomised.</p>
+                        </details>
+                        <details name="faq">
+                            <summary>
+                                <h3>Hipcouch Interior Design Service?</h3> 
+                                <span><img src="assets/icons/More.svg" alt=""></span>
+                            </summary>
+                            <p>Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem
+                                vitae turpmaximus.posuere in.Contrary popular belief.
+                                There are many variations of passages of Lorem Ipsum available, but the majority randomised.</p>
+                        </details>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="footer__content">
+                <div class="footer__socials">
+                    <!-- Footer Logo -->
+                    <div class="logo-wrapper">
+                        <img src="../assets/Logo.png" alt="logo">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, laudantium! Ea animi porro, quibusdam nobis labore tenetur.</p>
+                    <ul>
+                        <li>
+                            <a target="_blank" href="https://twitter.com">
+                                <img src="../assets/icons/Twitter.svg" alt="Twitter">
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://facebook.com">
+                                <img src="../assets/icons/Facebook.svg" alt="Facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://linkedin.com">
+                                <img src="../assets/icons/LinkedIn.svg" alt="LinkedIn">
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://instagram.com">
+                                <img src="../assets/icons/Instagram.svg" alt="Instagram">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__pages">
+                    <h3>Pages</h3>
+                    <ul>
+                        <li><a href="/about.html">about us</a></li>
+                        <li><a href="/services.html">our services</a></li>
+                        <li><a href="/projects.html">our projects</a></li>
+                        <li><a href="/team.html">our team</a></li>
+                        <li><a href="/contact.html">contact us</a></li>
+                    </ul>
+                </div>
+                <div class="footer__contact">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li>
+                            <a target="_blank" href="https://maps.app.goo.gl/UCdqhYAFz1DDrtbD6">55 East Birchwood Ave. Brooklyn, New York 11201</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="mailto:contact@micasa.com">contact@micasa.com</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="tel:+1234567890">(123) 456-7890</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <p>Copyright © Micasa | Designed by Victorflow Templates - Powered by Webflow</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- JavaScript Sources -->
+    <script src="js/app.js" defer></script>
+    <script src="js/contact.js" defer></script>
+</body>
+</html>

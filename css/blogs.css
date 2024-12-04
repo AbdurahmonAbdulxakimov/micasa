@@ -1,0 +1,221 @@
+/*
+* Intro Section
+*/
+
+section.intro {
+    width: 100%;
+    min-height: 360px;
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+    background: center / cover no-repeat url("../assets/images/services/banner.png");
+
+    padding: 0px 20px;
+    margin-bottom: 75px;
+}
+
+section.intro .intro__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    padding: 40px 144px;
+    border-radius: 40px 40px 0px 0px;
+
+    background-color: #fff;
+}
+
+section.intro .intro__content p {
+    opacity: .9;
+    font-size: 1.375rem;
+}
+
+@media screen and (max-width: 430px) {
+    section.intro .intro__content {
+        padding: 32px 56px;
+    }
+    section.intro .intro__content h1 {
+        font-size: 2.1875rem;
+    }
+    section.intro .intro__content p {
+        font-size: 1.125rem;
+    }
+}
+
+/*  
+* Latest Post
+*/
+
+section.latest-post .container {
+    flex-direction: column;
+    gap: 30px;
+}
+
+section.latest-post .post {
+    width: 100%;
+    padding: 24px;
+
+    border-radius: 60px;
+    border: 1px solid rgba(var(--color-brown-rgb), .3);
+}
+
+section.latest-post .post a {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+    align-items: center;
+}
+
+section.latest-post .post .img-wrapper {
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+section.latest-post .post .icon-wrapper {
+    width: 52px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: rgba(var(--color-brown-rgb), .2);
+    padding: 16px;
+}
+
+section.latest-post .post .icon-wrapper img {
+    height: 100%;
+    width: auto;
+}
+
+section.latest-post .post .post__content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+section.latest-post .post .post__detail {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1020px) {
+    section.latest-post .post a {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        opacity: 1;
+    }
+}
+
+/* Blog Gallery */
+
+section.blogs .container {
+    flex-direction: column;
+    gap: 30px;
+}
+
+section.blogs .blogs__gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+
+section.blogs .blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 64px;
+    border: 1px solid var(--color-border);
+
+    transition: all 200ms ease-in;
+}
+section.blogs .blog a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+}
+
+
+section.blogs .blog:hover {
+    scale: 1.05;
+    background-color: rgba(var(--color-brown-rgb), .2);
+}
+
+section.blogs .img-wrapper {
+    position: relative;
+
+    width: 100%;
+    height: auto;
+}
+section.blogs .img-wrapper span {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    display: inline-block;
+    width: fit-content;
+    padding: 12px 10px;
+    background-color: #fff;
+    border-radius: 8px 8px 8px 0px;
+    font-size: 1rem;
+    opacity: .85;
+}
+
+section.blogs .blog__content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+}
+
+section.blogs .blog__detail {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    margin: 20px 0px;
+}
+section.blogs .blog__detail p {
+    opacity: .75;
+}
+
+section.blogs .blog__detail .icon-wrapper {
+    padding: 0px 20px;
+    
+}
+
+@media screen and (max-width: 1025px) {
+    section.blogs .blogs__gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 760px) {
+    section.blogs .blogs__gallery {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    section h2 {
+        font-size: 2rem !important;
+    }
+
+    section p {
+        font-size: 1.125rem !important;
+    }
+
+    .icon-wrapper {
+        display: none !important;
+    }
+}
+
